@@ -1,4 +1,5 @@
 #### Installation
+> backend
 
 `npm init`
 
@@ -217,6 +218,7 @@ router.route("/").get((req, res) => {
 <hr/>
 
 #### Connecting with Frontend
+> frontend
 
 `npx create-react-app my-app`
 
@@ -259,6 +261,7 @@ export default App;
 <hr/>
 
 #### Uploading Files
+> backend
 
 `npm i gridfs-stream`
 
