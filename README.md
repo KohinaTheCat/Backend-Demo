@@ -3,7 +3,7 @@
 
 `npm init`
 
-`npm install express mongoose node env cors`
+`npm install express mongoose node dotenv cors`
 
 `npm install`
 
