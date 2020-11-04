@@ -14,9 +14,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         {users.map((u) => (
-          <button key={u._id}>
-            <p>{u.username}</p>
-          </button>
+          <p>{u.username}</p>
         ))}
       </header>
     </div>

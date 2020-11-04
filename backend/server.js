@@ -29,10 +29,14 @@ connection.once("open", () => {
 // connection started
 
 // add routes here:
+// user route
 const UserRouter = require("./routes/user");
 // directory: routes/user.js
 app.use("/user", UserRouter);
 // all routes defined in UserRouter will start with /user/*
+// files route
+const FilesRouter = require("./routes/files")
+app.use("/files", FilesRouter)
 
 const PORT = 5000;
 // port it will run on locally
